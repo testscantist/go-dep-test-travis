@@ -2,8 +2,6 @@ language:
   - go
 go:
   - master
-go_import_path:
-  - github.com/goharbor/harbor@v1.7.1
 script:
   - go test
 after_success:
